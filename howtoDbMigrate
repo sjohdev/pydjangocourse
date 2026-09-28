@@ -1,9 +1,9 @@
 
 # Migrate Django database after modifying models: 
-python manage.py makemigrations modelsfoldername
+python manage.py makemigrations modelsdirname
 
 # Check the SQL statements: 
-python manage.py sqlmigrate orm 0001
+python manage.py sqlmigrate modelsdirname 0001
 
 # Perform the migration to create orm_user table: 
 python manage.py migrate
