@@ -1,6 +1,6 @@
 
 # Migrate Django database after modifying models: 
-python manage.py makemigrations orm
+python manage.py makemigrations modelsfoldername
 
 # Check the SQL statements: 
 python manage.py sqlmigrate orm 0001
